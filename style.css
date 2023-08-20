@@ -1,0 +1,86 @@
+
+body, h1, h2, h3, p, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: aqua;
+    font-family: cursive;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: aliceblue;
+}
+
+
+header {
+    background-color: #333333;
+    color: aquamarine;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+}
+
+nav a {
+    color: rgb(17, 50, 237);
+    text-decoration: none;
+    padding: 1em;
+}
+
+
+section {
+    padding: 2em;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 1em;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #db1414;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #060606;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+
+footer {
+    background-color: #333;
+    color: rgb(90, 231, 19);
+    text-align: center;
+    padding: 1em 0;
+}
